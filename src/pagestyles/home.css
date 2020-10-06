@@ -1,3 +1,32 @@
 .texthead{
     color: white;
 }
+
+img {
+    width: 5rem;
+    height: auto;
+  }
+
+.sidebarHead{
+    align-items: flex-start;
+}
+
+.sidebarButtons button{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.sidebarButtons button.active{
+    /* background-color: #4CAF50; */
+    color: white;
+}
+
+.sidebarButtons button:hover:not(.active) {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+  }
